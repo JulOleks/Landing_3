@@ -1,16 +1,61 @@
-body{
-background: url("../img/MoGopsd.jpg");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,700&display=swap');
+html {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
+
+body {
+    background: url("../img/MoGopsd.jpg");
+    margin: 0;
+    /* font-family: 'Roboto', sans-serif; */
+    /* background: #000; */
+}
+
 /* Header */
-.container__header{} 
-.container__fixed{} 
-.header{}
-.header__logo{}
-.logo{}
-.logo_link{}
-.header__navbar{}
-.navbar{}
-.navbar__menu{}
-.menu{}
-.menu__item{}
-.menu__link{}
+
+.container__header {}
+
+.container__fixed {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 0 22px 0;
+}
+
+.header__logo {}
+
+.logo {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+.logo_link {}
+
+.logo_link, .menu__link {
+    text-decoration: none;
+    color:#ffff;
+}
+
+.header__navbar {
+    margin: 14px 0 0px 0;
+}
+
+.navbar {}
+
+.navbar__menu {}
+
+.menu {}
+
+.menu__item {
+    display: inline-block;
+    font-size: 1.4rem;
+    margin-left: 54px;
+    letter-spacing: -1px;
+}
+
+.menu__link {}
