@@ -13,6 +13,21 @@ body {
 
 /* Header */
 
+.container__background {
+    background: url("../img/banner/main.jpg") no-repeat 0 -145px;
+}
+
+/* .container__background::before{
+    content: "";
+    background: linear-gradient(rgba(243,129,129, 0.9),rgba(252, 227,138, 0.9));
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  
+} */
+
 .container__header {}
 
 .container__fixed {
@@ -38,7 +53,7 @@ body {
 
 .logo_link, .menu__link {
     text-decoration: none;
-    color:#ffff;
+    color: #ffff;
 }
 
 .header__navbar {
