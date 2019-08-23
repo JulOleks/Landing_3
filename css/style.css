@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto:400,700&display=swap');
 html {
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
@@ -9,12 +9,14 @@ body {
     margin: 0;
     /* font-family: 'Roboto', sans-serif; */
     /* background: #000; */
+    /* font-family: 'Kaushan Script', cursive; */
 }
 
 /* Header */
 
 .container__background {
-    background: url("../img/banner/main.jpg") no-repeat 0 -145px;
+    /* background: url("../img/banner/main.jpg") no-repeat 0 -145px; */
+    height: 1000px;
 }
 
 /* .container__background::before{
@@ -74,3 +76,82 @@ body {
 }
 
 .menu__link {}
+.container__banner{}
+.banner{
+    margin: 129px 0 0 0px;
+    text-align: center;
+}
+.banner__above-slogan{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 7.5rem;
+    margin-bottom: 21px;
+    letter-spacing: -1px;
+}
+.banner__slogan{
+    font-size: 15rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -7px;
+    margin-left: 3px;
+    line-height: 141px;
+    margin-bottom: 61px;
+}
+.banner__slogan::after{
+    content: "";
+    display: block;
+    background: #fff;
+    height: 3px;
+    width: 60px;
+    margin: 55px auto;
+}
+.banner__btn{
+    font-size: 1.4rem;
+    border: 3px solid #fff;
+    /* margin: 0 0 0 17px; */
+    padding: 9px 29px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffff;
+}
+.banner__footer{
+    margin: 163px 0 0 0;
+}
+.footer-b__navbar-f{}
+.footer-b{}
+.navbar-f{
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+.navbar-f__item{
+    /* display: inline-block; */
+    width: 25%;
+    font-size: 1.8rem;
+    text-align: start;
+    margin-left: 30px;
+    border-top: 3px solid rgba(255, 255, 255, 0.26);
+    padding: 25px 0 28px 0;
+}
+/* .navbar-f__item:hover    {
+    border-top: 3px solid #f38181;
+    width: 70px;
+
+}
+.navbar-f__item:hover::before {
+border-top:3px solid #fff; 
+} */
+/* .item__link-f:hover{
+    color: #fff;
+    width: 100%;
+} */
+.item__link-f{
+    color:rgba(255, 255, 255, 0.26);
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    
+}
+.item__nbold{
+    font-weight: bold;
+    font-size: 2.4rem;
+}
